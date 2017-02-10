@@ -36,7 +36,7 @@ Time to apply the pipes.
 
 To get a sorted list of the KUIDs of the students on the course::
 
-    $ cat students/.staffeli.yml | grep sis_login_id | cut -d' ' -f4 | cut -d'@' -f1 | sort | uniq > all.txt
+    $ cat students/.staffeli.yml | grep login_id | cut -d' ' -f4 | cut -d'@' -f1 | sort | uniq > all.txt
 
 To get a sorted list of the KUIDs of the students that have submitted::
 
